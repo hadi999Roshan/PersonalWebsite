@@ -1,0 +1,106 @@
+body {
+    margin: 0; /* Remove default margin */
+    background-color: rgb(35, 35, 35);
+    font-family: "Charm", serif;
+    color: rgb(170, 170, 170);
+}
+
+.header {
+    position: fixed; /* Keeps the header fixed at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background-color: black; /* Optional: Add background for better contrast */
+    text-align: center;
+}
+
+.ml-banner {
+    width: 100%; /* Makes the banner image responsive */
+    height: auto;
+}
+
+.main {
+    position: relative; /* Use relative positioning */
+    margin-top: 365px; /* Push content below the fixed header */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.bio {
+    text-align: center;
+    margin-bottom: 40px; /* Add spacing below the bio section */
+}
+
+.greeting {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.bio-paragraph {
+    max-width: 900px; /* Constrain the width for better readability */
+    margin: 0 auto; /* Center-align the paragraph within its container */
+    font-size: 20px;
+    line-height: 1.6; /* Improve readability by increasing line spacing */
+    text-align: justify; /* Justify the text to align both left and right edges */
+    color: rgb(170, 170, 170); /* Ensure consistent text color */
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column; /* Arrange items in vertical rows */
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Add spacing between the rows */
+    margin-top: 20px; /* Optional: Add some space above the links section */
+}
+
+
+.border-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgb(170, 170, 170);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+.link-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.link-text {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-text:hover {
+    text-decoration: underline; /* Add hover effect */
+}
+
+.quote {
+    text-align: center; /* Center the text */
+    margin-top: 50px; /* Add spacing above the quote */
+    padding: 20px; /* Add some padding for breathing space */
+    font-family: "Charm", serif; /* Use the same font as the rest of the webpage */
+    font-size: 24px; /* Set an appropriate font size */
+    color: rgb(170, 170, 170); /* Match the text color with the rest of the site */
+}
+
+.quote-text {
+    font-style: italic; /* Italicize the quote text */
+}
+
+.quote-author {
+    font-weight: bold; /* Emphasize the author's name */
+}

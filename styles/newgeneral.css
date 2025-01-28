@@ -1,0 +1,205 @@
+body {
+  margin: 0; /* Remove default margin */
+  background-color: #fff0dcaf;
+  font-family: "Texturina", serif;
+  color: rgb(170, 170, 170);
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-contents {
+  position: absolute;
+  left: 0px;
+}
+
+.sidebar {
+  padding: 20px 25px;
+  position: fixed;
+  left: 0;
+  top: 245px;
+  bottom: 0;
+  width: 250px;
+  background-color: #fbe5c8;
+  color: #d47902;
+  z-index: 50;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #d47902;
+  border-radius: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.profile-name {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.section-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 20px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  text-align: center;
+  width: 100%;
+  height: 245px;
+}
+
+.header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.per-banner {
+  width: 100%;
+}
+
+#social-link {
+  visibility: hidden;
+}
+
+.main {
+  position: relative;
+  top: 245px;
+  left: 330px;
+  margin-top: 10px; /* Push content below the static header */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+.bio {
+  text-align: center;
+  margin-bottom: 40px; /* Add spacing below the bio section */
+}
+
+.greeting {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #d47902;
+}
+
+.bio-paragraph {
+  max-width: 900px; /* Constrain the width for better readability */
+  margin: 0 auto; /* Center-align the paragraph within its container */
+  font-size: 15px;
+  line-height: 1.6; /* Improve readability by increasing line spacing */
+  text-align: justify; /* Justify the text to align both left and right edges */
+  color: #d47902; /* Ensure consistent text color */
+}
+
+.links {
+  display: flex;
+  flex-direction: column; /* Arrange items in vertical rows */
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center; /* Center items horizontally */
+  gap: 20px; /* Add spacing between the rows */
+  margin-top: 20px; /* Optional: Add some space above the links section */
+}
+
+.border-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 2rem;
+  width: 450px;
+  height: 60px;
+  border: 2px solid #d47902;
+  border-radius: 25px;
+  background-color: #ffd8a6;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  transition: all 200ms;
+}
+
+.border-container:hover {
+  background-color: #ffd8a660;
+  cursor: pointer;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.link-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.link-text {
+  color: #d47902;
+  text-decoration: none;
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+.link-text:hover {
+  text-decoration: underline; /* Add hover effect */
+}
+
+#bio-tag {
+  cursor: pointer;
+}
+
+#social-tag {
+  cursor: pointer;
+}
+
+.quote {
+  text-align: center; /* Center the text */
+  margin-top: 0px; /* Add spacing above the quote */
+  padding: 20px; /* Add some padding for breathing space */
+  font-family: "Charm", serif; /* Use the same font as the rest of the webpage */
+  font-size: 20px; /* Set an appropriate font size */
+  color: rgb(
+    170,
+    170,
+    170
+  ); /* Match the text color with the rest of the site */
+}
+
+.quote-text {
+  font-style: italic; /* Italicize the quote text */
+  color: #d47902;
+}
+
+.quote-author {
+  font-weight: bold; /* Emphasize the author's name */
+  color: #d47902;
+}

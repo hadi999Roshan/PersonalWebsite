@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-color: #fff0dcaf;
+  background-color: #001845ff;
   font-family: "Texturina", serif;
-  color: rgb(170, 170, 170);
+  color: #abb7c9;
   overflow-x: hidden;
 }
 
@@ -22,8 +22,8 @@ body {
   top: 245px;
   bottom: 0;
   width: 250px;
-  background-color: #fbe5c8;
-  color: #d47902;
+  background-color: #023e7dff;
+  color: #abb7c9;
   z-index: 50;
 }
 
@@ -37,7 +37,7 @@ body {
 .profile-pic {
   width: 80px;
   height: 80px;
-  border: 2px solid #d47902;
+  border: 2px solid #0466c8ff;
   border-radius: 40px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -86,7 +86,7 @@ body {
 #social-tag:hover,
 #certificate-tag:hover,
 #skills-tag:hover {
-  color: #d5790077;
+  color: #abb7c9;
 }
 
 .header {
@@ -131,7 +131,7 @@ body {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 30px;
-  color: #d47902;
+  color: #abb7c9;
 }
 
 .bio-paragraph {
@@ -140,7 +140,7 @@ body {
   font-size: 17px;
   line-height: 1.6;
   text-align: justify;
-  color: #d47902;
+  color: #abb7c9;
 }
 
 .links {
@@ -158,9 +158,9 @@ body {
   width: 100%;
   max-width: 350px;
   height: 60px;
-  border: 1px solid #d47902;
+  border: 1px solid #0466c8ff;
   border-radius: 25px;
-  background-color: #ffd8a6;
+  background-color: #023e7dff;
   font-size: 15px;
   text-align: center;
   padding: 40px 20px;
@@ -169,7 +169,7 @@ body {
 }
 
 .border-container:hover {
-  background-color: #ffd8a660;
+  background-color: rgba(2, 61, 125, 0.274);
   cursor: pointer;
 }
 
@@ -190,7 +190,7 @@ body {
 }
 
 .link-text {
-  color: #d47902;
+  color: #abb7c9;
   text-decoration: none;
   font-weight: bold;
   text-wrap: nowrap;
@@ -218,14 +218,14 @@ body {
 .frame-container {
   width: 510px;
   height: 360px;
-  border: 2px solid #d47902;
-  background-color: #ffd8a6;
+  border: 2px solid #0466c8ff;
+  background-color: #023e7dff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: all 200ms;
 }
 
 .frame-container:hover {
-  background-color: #ffd8a660;
+  background-color: rgba(2, 61, 125, 0.274);
   cursor: pointer;
 }
 
@@ -258,9 +258,9 @@ body {
   width: 100%;
   max-width: 350px;
   height: 60px;
-  border: 1px solid #d47902;
+  border: 1px solid #0466c8ff;
   border-radius: 50px;
-  background-color: #ffd8a6;
+  background-color: #023e7dff;
   font-size: 15px;
   text-align: center;
   padding: 40px 20px;
@@ -269,7 +269,7 @@ body {
 }
 
 .skill-border-container:hover {
-  background-color: #ffd8a660;
+  background-color: rgba(2, 61, 125, 0.274);
 }
 
 .skill-logo-container {
@@ -289,7 +289,7 @@ body {
 }
 
 .skill-text {
-  color: #d47902;
+  color: #abb7c9;
   text-decoration: none;
   font-weight: bold;
   text-wrap: nowrap;
@@ -301,15 +301,15 @@ body {
   padding: 20px;
   font-family: "Charm", serif;
   font-size: 20px;
-  color: rgb(170, 170, 170);
+  color: #abb7c9;
 }
 
 .quote-text {
   font-style: italic;
-  color: #d47902;
+  color: #abb7c9;
 }
 
 .quote-author {
   font-weight: bold;
-  color: #d47902;
+  color: #abb7c9;
 }
